@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
     <main class="box">
@@ -17,7 +17,11 @@
         <div class="box-adicionar">
             <textarea class="box-adicionar__input" placeholder="Digite uma tarefa"></textarea>
         </div>
-        <button class="box__botao-primary">Add</button>
+        <button class="btn botoes-acao__adicionar">Add</button>
+        <div class="botoes-acao">
+            <button class="btn btn--col-50 botoes-acao__marcar-todas">Marcar todas</button>
+            <button class="btn btn--col-50 botoes-acao__excluir-todas">Excluir todas</button>
+        </div>
         <div class="tarefas-adicionadas">
             <ul class="tarefas-adicionadas-itens">
             </ul>
@@ -31,6 +35,6 @@
 
 
     </main>
-<script src="script/script.js"></script>    
+<script src="script/script.js"></script>
 </body>
 </html>
